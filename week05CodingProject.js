@@ -12,6 +12,8 @@ class Courses {
 class Students {
     constructor(name){
         this.name = name;
-        this.courseAssignment = [];
+        this.studentAssignment = [];
     }
 }
+    let registerStudent = newStudent => this.studentAssignment.push(newStudent);
+    
