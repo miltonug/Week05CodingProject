@@ -9,3 +9,9 @@ class Courses {
         return `${this.name} is taking the ${this.course} course.`;
     }
 } 
+class Students {
+    constructor(name){
+        this.name = name;
+        this.courseAssignment = [];
+    }
+}
